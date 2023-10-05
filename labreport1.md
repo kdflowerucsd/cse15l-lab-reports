@@ -1,4 +1,4 @@
-![Image](cdnoargs.PNG)
+![Image](cdnoarg.PNG)
 The working directory was user@sahara. 
 I got this output because cd needs an argument because it changes the current directory. No arguments means that there is nothing typed after the command. The output is not an error, because there is no error message, it just doesn't do anything because no location was specified. 
 
