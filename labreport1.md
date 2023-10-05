@@ -7,7 +7,7 @@ I got this output because cd needs an argument because it changes the current di
 The working directory was /home/lecture1. I got that output because it changed the working directory, and is letting me know that the current directory has now changed to /lecture1/messages. The output is not an error. 
 
 ![Image](cdfile.PNG) 
-The working directory was /home/lecture1/messages.  
+The working directory was /home/lecture1/messages. I got this output because you cannot change directories into a file. Thus, this is an error because you cannot cd a file.  
 
 # ls command examples
 ![Image](lsnoarg.PNG)
