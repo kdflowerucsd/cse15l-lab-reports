@@ -16,7 +16,7 @@ The working directory was /home. I got that output because ls lists the contents
 ![Image](lsdirectory.PNG)
 The working directory was /home. I got that output because the argument supplied is a directory, so ls listed the files inside the directory lecture1. The output is not an error. 
 
-![Image](lsfile.PNG)
+![Image](lsfile.png)
 The working directory was /home/lecture1/messages. I got this output because ls is only able to list the contents of something, hence why it only repeats that it is the en-us.txt file, instead of being able to display the contents of the file. The output is not an error. 
 
 # cat command examples
