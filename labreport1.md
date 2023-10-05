@@ -1,13 +1,13 @@
 # cd command examples
 ![Image](cdnoarg.PNG)
-The working directory was user@sahara. 
+The working directory was /home. 
 I got this output because cd needs an argument because it changes the current directory. No arguments means that there is nothing typed after the command. The output is not an error, because there is no error message, it just doesn't do anything because no location was specified. 
 
 ![Image](cddirectory.PNG)
-The working directory was /lecture1. I got that output because it changed the working directory, and is letting me know that the current directory has now changed to /lecture1/messages. The output is not an error. 
+The working directory was /home/lecture1. I got that output because it changed the working directory, and is letting me know that the current directory has now changed to /lecture1/messages. The output is not an error. 
 
 ![Image](cdfile.PNG) 
-The working directory was /lecture1/messages.  
+The working directory was /home/lecture1/messages.  
 
 # ls command examples
 ![Image](lsnoarg.PNG)
