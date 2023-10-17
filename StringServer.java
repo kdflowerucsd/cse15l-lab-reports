@@ -9,7 +9,7 @@ class Handler implements URLHandler {
     public String handleRequest(URI url) {
          if(url.getPath().equals("/add-messages")){
            String[] parameters = url.getQuery().split("=");
-           if(parameters[0].equals("s")){
+           if(parameters[0].contains("s")){
              return String.format("/n",listNum, ". ", parameters[1]);
          } 
       
@@ -26,12 +26,13 @@ class Handler implements URLHandler {
                     return String.format("Number increased by %s! It's now %d", parameters[1], num);
                 }
             }
-            return "404 Not Found!";
-        } */
+          */ 
+        } 
+         return "404 Not Found!";
     } 
 }
 
-class NumberServer {
+class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
