@@ -9,7 +9,7 @@ To run the tests, I first `cd` into the `lab7` directory. Then I can use the com
 To fix the code, I use `vim ListExamples.java` so that I can remotely edit the file `ListExamples.java`
 ![Moving inside vim](lab4p4.png)
 To quickly move to where the bug is, I used the following keys:
-Keys pressed: <4><2><j><1><1><l>
+Keys pressed: <4><2> <j> <1><1> <l>
 What this does is that 42j moves the cursor down 42 lines, and then 11l moves the cursor 11 characters to the right. 
 ![Fixing the bug](lab4p5.png)
 To fix the bug I used the following keys:
